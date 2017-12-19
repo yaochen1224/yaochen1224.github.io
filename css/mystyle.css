@@ -52,6 +52,10 @@ header h1 {
    margin-top: 20px;
  }
 
+ #note h4 {
+   color: #B71C1C;
+ }
+
 #moreContent {
   background: white;
   padding: 80px 0;
