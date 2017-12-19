@@ -104,7 +104,10 @@ header h1 {
 
 #rule {
   position: absolute;
-  left: 220px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
   top: -10px;
   z-index: 300;
 }
