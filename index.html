@@ -40,10 +40,8 @@
       </section>
     </div>
     <div class="more">
-      <a href="#moreContent" title="To Top">
-        <button type="button" class="btn btn-default btn-circle btn-xl">
-          <i class="fa fa-angle-down" aria-hidden="true"></i>
-        </button>
+      <a href="#moreContent" data-toggle="tooltip" data-placement="right" title="More Content">
+        <button type="button" class="btn btn-default btn-circle btn-xl"><i class="fa fa-angle-down" aria-hidden="true"></i></button>
       </a>
     </div>
 
@@ -78,8 +76,12 @@
       </div>
       <div id="controller" class="col-sm-12">
         <h3 id="feedback">Hang in there!</h3>
-        <button type="button" onclick="startGame()" class = "btn btn-default btn-circle btn-lg"><i class="fa fa-play" aria-hidden="true"></i></button>
+        <a href="#" data-toggle="tooltip" data-placement="bottom" title="Start/Restart Game">
+          <button type="button" onclick="startGame()" class = "btn btn-default btn-circle btn-lg"><i class="fa fa-play" aria-hidden="true"></i></button>
+        </a>
+        <a href="#" data-toggle="tooltip" data-placement="bottom" title="Stop Game">
         <button type="button" onclick="stopGame()" class = "btn btn-default btn-circle btn-lg"><i class="fa fa-stop" aria-hidden="true"></i></button>
+        </a>
         <a href="#rule" class="btn btn-default" data-toggle="collapse">Click to see the rules</a>
       </div>
     </div>

@@ -2,7 +2,7 @@
 // add smooth scroll
 $(document).ready(function(){
 
-
+  $('[data-toggle="tooltip"]').tooltip();   
   // Add smooth scrolling to all links
   $(".step a, .more a").on('click', function(event) {
 
